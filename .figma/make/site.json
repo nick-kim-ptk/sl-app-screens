@@ -1,0 +1,10 @@
+{
+  "description": "Provides a sleek, consistent app interface with 95 screens and intuitive bottom navigation tailored for Samsung Lions fans and app developers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

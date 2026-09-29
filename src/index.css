@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #F5F7FB;
+  --color-surface: #FFFFFF;
+  --color-card: #FFFFFF;
+  --color-elevated: #EEF1F8;
+  --color-ph: #E8EBF4;
+  --color-ph2: #D8DCE9;
+  --color-blue: #1B5BF0;
+  --color-blue-dim: #0E2F80;
+  --color-text1: #F0F2F8;
+  --color-text2: #8595AB;
+  --color-text3: #4A5570;
+  --color-border: #DDE1EC;
+  --color-red: #E53935;
+  --color-gold: #F0A500;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  background-color: #F5F7FB;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #111827;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { display: none; }
+
+@keyframes ticketScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
